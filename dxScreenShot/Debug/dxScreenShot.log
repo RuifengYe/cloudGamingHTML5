@@ -1,0 +1,23 @@
+﻿  dxScreenShot.cpp
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_malloc referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_dict_set referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_frame_alloc referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_frame_free referenced in function "int __cdecl flush_encoder(struct AVFormatContext *,unsigned int)" (?flush_encoder@@YAHPAUAVFormatContext@@I@Z)
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avcodec_open2 referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_init_packet referenced in function "int __cdecl flush_encoder(struct AVFormatContext *,unsigned int)" (?flush_encoder@@YAHPAUAVFormatContext@@I@Z)
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_new_packet referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avcodec_find_encoder referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avcodec_encode_video2 referenced in function "int __cdecl flush_encoder(struct AVFormatContext *,unsigned int)" (?flush_encoder@@YAHPAUAVFormatContext@@I@Z)
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avpicture_fill referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avpicture_get_size referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avio_open referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_register_all referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avformat_alloc_context referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avformat_new_stream referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _avformat_write_header referenced in function _main
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_write_frame referenced in function "int __cdecl flush_encoder(struct AVFormatContext *,unsigned int)" (?flush_encoder@@YAHPAUAVFormatContext@@I@Z)
+dxScreenShot.obj : error LNK2019: unresolved external symbol _av_guess_format referenced in function _main
+D:\C++projects\dxScreenShot\dxScreenShot\lib\avcodec.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\C++projects\dxScreenShot\dxScreenShot\lib\avfilter.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\C++projects\dxScreenShot\dxScreenShot\lib\avformat.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\C++projects\dxScreenShot\dxScreenShot\Debug\dxScreenShot.exe : fatal error LNK1120: 18 unresolved externals
